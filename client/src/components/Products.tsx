@@ -92,7 +92,7 @@ const Products = () => {
             {products && products.filter((item: any) => item.quantity > 0 ).map((item : any) => (
             <div className={styles.itemBox} key={item._id}>  {/* box overal */}
               <div>
-               <img src={item.imageUrls} alt='Product' className={styles.productImg}/>
+               <img src={item.image} alt='Product' className={styles.productImg}/>
               </div>
               <div>
                <div style={{ display: "flex" , justifyContent: "space-between"}}>
