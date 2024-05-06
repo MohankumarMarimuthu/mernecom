@@ -1,0 +1,33 @@
+.productForm{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    /* margin: 100px auto; */
+    @media(min-width: 768px){
+        border-radius: 8px;
+        /* padding: 64px; */
+        /* margin: 150px auto; */
+    }
+    gap: 12px;
+    input{
+        padding: 12px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #838383;
+    }
+    textarea{
+        height: 150px;
+        padding: 12px;
+    }
+}
+.loginBtn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #3f3d3d;
+    color: white;
+}
+.loginBtn:hover{
+    color: #838383;
+    border: 1px solid #838383;
+    background-color: transparent;
+}

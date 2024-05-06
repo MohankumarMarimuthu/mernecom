@@ -1,0 +1,36 @@
+.itemList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemListLayout{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.deleteBtn{
+    background: rgb(232, 80, 80);
+    color: white;
+    padding: 0px 20px;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.deleteBtn:hover{
+    color: red;
+    background-color: white;
+    border: 1px solid rgb(232, 80, 80);
+}
+.checkOut{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #3f3d3d;
+    color: white;
+    padding: 20px 0px;
+}
+.checkOut:hover{
+    color: #838383;
+    background-color: transparent;
+}

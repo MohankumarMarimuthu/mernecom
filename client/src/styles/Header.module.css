@@ -1,0 +1,39 @@
+.logoImg{
+    width: 76px;
+    @media(min-width: 768px){
+        width: 110px;
+    }
+    object-fit: cover;
+    height: 100%;
+}
+.headerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: white;
+        font-size: 16px;
+        @media(min-width: 768px){
+            font-size: 28px;
+        }
+    }
+    .logOut{
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        cursor: pointer;
+        @media(min-width: 768px){
+            font-size: 36px;
+        }
+    }
+    .logoCart{
+        color: white;
+        font-size: 24px;
+        margin-right: 24px;
+        @media(min-width: 768px){
+            font-size: 36px;
+        }
+    }
+}

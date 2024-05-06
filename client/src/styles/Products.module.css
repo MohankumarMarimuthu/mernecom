@@ -1,0 +1,69 @@
+.inputSearch{
+    width: 200px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+    @media(min-width: 768px){
+        padding: 24px;
+        width: 500px;
+    }
+    @media(min-width: 1024px){
+        width: 700px;
+    }
+}
+.productImg{
+    width: 200px;
+    @media(min-width: 768px){
+        width: 300px;
+    }
+    height: 300px;
+    object-fit: contain;
+}
+.cartBtn{
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: #3f3d3d;
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+    @media(min-width: 768px){
+      padding: 12px 24px;  
+    }
+}
+.cartBtn:hover{
+    color: #838383;
+    background-color: transparent;
+}
+/* .cartBtn:hover{
+    color: #838383;
+    border: 1px solid #838383;
+    background-color: transparent;
+} */
+.itemBoxLayout{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.itemBox{
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 12px;
+    @media(min-width: 768px){
+        width: 300px;
+        padding: 40px;
+    }
+}
+.itemBox:hover{
+    background-color: white;
+}
+.deleteBtn{
+    background: rgb(232, 80, 80);
+    color: white;
+    padding: 0px 20px;
+    margin: 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
